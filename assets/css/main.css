@@ -9656,18 +9656,16 @@ h3 {
   }
 }
 body {
-  width: 100%;
   margin: auto;
   padding: 0;
   background-image: url(../images/img_ppal.jpg);
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: auto;
   background-position: right;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   body {
-    width: 100%;
     margin: auto;
     padding: 0;
     background-image: url(../images/img_ppal.jpg);
@@ -9676,7 +9674,7 @@ body {
     background-position: right;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   body {
     width: 100%;
     margin: auto;
@@ -9684,10 +9682,10 @@ body {
     background-image: url(../images/img_ppal.jpg);
     background-repeat: no-repeat;
     background-size: 100%;
-    background-position: left;
+    background-position: 1px 66px;
   }
 }
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   body {
     background-image: url(../images/img_ppal.jpg);
     background-repeat: no-repeat;
@@ -9749,7 +9747,7 @@ table {
   border-spacing: 0;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   h1 {
     font-family: "Old Standard TT", serif;
     font-size: 50px;
@@ -9787,7 +9785,7 @@ table {
     font-weight: 700;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   h1 {
     font-family: "Old Standard TT", serif;
     font-size: 50px;
@@ -9796,7 +9794,7 @@ table {
 
   p {
     font-family: "Raleway", sans-serif;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: 400;
     color: #0c0910;
   }
@@ -9825,7 +9823,7 @@ table {
     font-weight: 700;
   }
 }
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   h1 {
     font-family: "Old Standard TT", serif;
     font-size: 30px;
@@ -9863,13 +9861,26 @@ table {
     font-weight: 700;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (max-width: 768px) {
+  .col-md-5 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+
+  .col-md-9 {
+    flex: 0 0 100%;
+    max-width: 92%;
+  }
+}
+@media only screen and (min-width: 1024px) {
   * {
     box-sizing: border-box;
   }
 
   .box {
     padding: 2rem 6rem 5.4rem 4rem;
+    background-color: #fff;
+    width: 40vw;
   }
 
   .box2 {
@@ -9877,29 +9888,34 @@ table {
     line-height: 1.6rem;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   * {
     box-sizing: border-box;
   }
 
   .box {
-    padding: 2rem 15rem 1rem 2rem;
+    padding: 2rem 15rem 4rem 2rem;
     margin-top: 74vh;
   }
 
   .box2 {
-    padding: 3rem 16rem 1rem 2rem;
+    padding: 3rem 2rem 3rem 0rem;
     line-height: 1.6rem;
   }
+
+  .col-md-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
 }
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   * {
     box-sizing: border-box;
   }
 
   .box {
-    padding: 2rem 2rem 1rem 3rem;
-    margin-top: 56vh;
+    padding: 5rem 2rem 1rem 3rem;
+    margin-top: 46vh;
   }
 
   .box2 {
@@ -9907,7 +9923,7 @@ table {
     line-height: 1.6rem;
   }
 }
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .row {
     display: flex;
   }
@@ -9937,7 +9953,7 @@ table {
     width: 17rem;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .row {
     display: flex;
   }
@@ -9956,6 +9972,13 @@ table {
   .texto-vertical-1 {
     writing-mode: vertical-lr;
     padding-top: 4rem;
+    top: -13rem;
+    padding-left: 45rem;
+  }
+
+  .col-md-6 {
+    flex: 0 0 50%;
+    max-width: 108%;
   }
 
   .email {
@@ -9966,7 +9989,7 @@ table {
     width: 17rem;
   }
 }
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   .row {
     display: flex;
   }
@@ -9984,7 +10007,9 @@ table {
 
   .texto-vertical-1 {
     writing-mode: vertical-lr;
-    padding-top: 4rem;
+    padding-left: 2rem;
+    top: -13rem;
+    padding-left: 21.6rem;
   }
 
   .email {
@@ -10021,7 +10046,7 @@ table {
   height: 42px;
 }
 
-@media only screen and (min-width: 1200px) {
+@media only screen and (min-width: 1024px) {
   .navbar-toggler {
     border: none;
   }
@@ -10050,7 +10075,7 @@ table {
     color: #0c0910;
   }
 }
-@media only screen and (min-width: 768px) {
+@media only screen and (max-width: 768px) {
   .navbar-toggler {
     border: none;
   }
@@ -10079,7 +10104,7 @@ table {
     color: #0c0910;
   }
 }
-@media only screen and (min-width: 375px) {
+@media only screen and (max-width: 375px) {
   .navbar-toggler {
     border: none;
   }

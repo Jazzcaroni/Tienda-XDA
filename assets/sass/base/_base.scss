@@ -1,16 +1,13 @@
 body {
-  width: 100%;
   margin: auto;
   padding: 0;
   background-image:url(../images/img_ppal.jpg);
   background-repeat: no-repeat;
-  background-size: 60%;
+  background-size: auto;
   background-position: right;
 }
-@media only screen and (min-width: 1200px){
-
+@media only screen and (min-width: 1024px){
   body {
-    width: 100%;
     margin: auto;
     padding: 0;
     background-image:url(../images/img_ppal.jpg);
@@ -20,8 +17,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 768px){
-
+@media only screen and (max-width: 768px){
   body {
     width: 100%;
     margin: auto;
@@ -33,7 +29,7 @@ body {
   }
 }
 
-@media only screen and (min-width: 375px){
+@media only screen and (max-width: 375px){
   body {
     background-image:url(../images/img_ppal.jpg);
     background-repeat: no-repeat;

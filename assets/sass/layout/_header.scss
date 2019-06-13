@@ -1,16 +1,14 @@
 
-
-
-
-
-
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1024px){
   * {
     box-sizing: border-box;
+
   }
 
   .box {
     padding: 2rem 6rem 5.4rem 4rem;
+    background-color: $white;
+    width: 40vw;
   }
 
   .box2 {
@@ -21,38 +19,42 @@
 }
 
 
-@media only screen and (min-width: 768px){
+@media only screen and (max-width: 768px){
   * {
     box-sizing: border-box;
   }
 
   .box {
-    padding: 2rem 15rem 1rem 2rem;
+    padding: 2rem 15rem 4rem 2rem;
     margin-top: 74vh;
   }
 
   .box2 {
-    padding: 3rem 16rem 1rem 2rem;
+    padding: 3rem 2rem 3rem 0rem;
     line-height : 1.6rem;
   }
-
+  .col-md-12 {
+      flex: 0 0 100%;
+      max-width: 100%;
+  }
 }
 
-@media only screen and (min-width: 375px){
+@media only screen and (max-width: 375px){
 
   * {
     box-sizing: border-box;
   }
 
   .box {
-  padding: 2rem 2rem 1rem 3rem;
-  margin-top: 56vh;
+  padding: 5rem 2rem 1rem 3rem;
+  margin-top: 46vh;
   }
 
   .box2 {
     padding: 2rem 6rem 1rem 0rem;
     line-height : 1.6rem;
   }
+
 
 
 }
