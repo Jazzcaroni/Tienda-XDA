@@ -10103,10 +10103,6 @@ table {
   .navbar-light .navbar-nav .nav-link {
     color: #0c0910;
   }
-
-  .collapse .navbar-collapse {
-    display: view;
-  }
 }
 @media only screen and (max-width: 375px) {
   .navbar-toggler {
