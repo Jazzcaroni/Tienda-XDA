@@ -1,40 +1,118 @@
-h1 {
-  font-family: $standard;
-  font-size: $xxx-large;
-  font-weight: bold;
+@media only screen and (min-width: 1200px){
+  h1 {
+    font-family: $standard;
+    font-size: $xxx-large;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: $raleway;
+    font-size: $small;
+    font-weight: $regular;
+    color: $smoky-black;
+  }
+
+  h2 {
+    font-family: $raleway;
+    font-size: $medium;
+    font-weight: $bold;
+  }
+
+  h3 {
+    font-family: $standard;
+    font-size: $xx-large;
+    font-weight: $regular;
+  }
+  h4 {
+    font-family: $standard;
+    font-size: $medium;
+    font-weight: $regular;
+  }
+
+  h5 {
+    font-family: $standard;
+    font-size: $large;
+    font-weight: $bold;
+  }
 
 }
 
-p {
-  font-family: $raleway;
-  font-size: $small;
-  font-weight: $regular;
-  color: $smoky-black;
+@media only screen and (min-width: 768px){
+  h1 {
+    font-family: $standard;
+    font-size: $xxx-large;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: $raleway;
+    font-size: $small;
+    font-weight: $regular;
+    color: $smoky-black;
+  }
+
+  h2 {
+    font-family: $raleway;
+    font-size: $medium;
+    font-weight: $bold;
+
+  }
+
+  h3 {
+    font-family: $standard;
+    font-size: $xx-large;
+    font-weight: $regular;
+  }
+  h4 {
+    font-family: $standard;
+    font-size: $medium;
+    font-weight: $regular;
+
+  }
+
+  h5 {
+    font-family: $standard;
+    font-size: $large;
+    font-weight: $bold;
+  }
+
 }
 
-h2 {
-  font-family: $raleway;
-  font-size: $medium;
-  font-weight: $bold;
+@media only screen and (min-width: 375px){
+  h1 {
+    font-family: $standard;
+    font-size: $xx-large;
+    font-weight: bold;
+  }
 
-}
+  p {
+    font-family: $raleway;
+    font-size: $small;
+    font-weight: $regular;
+    color: $smoky-black;
+  }
 
-h3 {
-  font-family: $standard;
-  font-size: $xx-large;
-  font-weight: $regular;
+  h2 {
+    font-family: $raleway;
+    font-size: $medium;
+    font-weight: $bold;
+  }
 
-}
-h4 {
-  font-family: $standard;
-  font-size: $medium;
-  font-weight: $regular;
+  h3 {
+    font-family: $standard;
+    font-size: $xx-large;
+    font-weight: $regular;
+  }
+  h4 {
+    font-family: $standard;
+    font-size: $medium;
+    font-weight: $regular;
+  }
 
-}
-
-h5 {
-  font-family: $standard;
-  font-size: $large;
-  font-weight: $bold;
+  h5 {
+    font-family: $standard;
+    font-size: $large;
+    font-weight: $bold;
+  }
 
 }

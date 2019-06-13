@@ -9689,13 +9689,10 @@ body {
 }
 @media only screen and (min-width: 375px) {
   body {
-    width: 100%;
-    margin: auto;
-    padding: 0;
     background-image: url(../images/img_ppal.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    background-position: left;
+    background-size: 102%;
+    background-position: 1px 66px;
   }
 }
 /* Ma/* http://meyerweb.com/eric/tools/css/reset/
@@ -9752,43 +9749,120 @@ table {
   border-spacing: 0;
 }
 
-h1 {
-  font-family: "Old Standard TT", serif;
-  font-size: 50px;
-  font-weight: bold;
-}
+@media only screen and (min-width: 1200px) {
+  h1 {
+    font-family: "Old Standard TT", serif;
+    font-size: 50px;
+    font-weight: bold;
+  }
 
-p {
-  font-family: "Raleway", sans-serif;
-  font-size: 14px;
-  font-weight: 400;
-  color: #0c0910;
-}
+  p {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0c0910;
+  }
 
-h2 {
-  font-family: "Raleway", sans-serif;
-  font-size: 16px;
-  font-weight: 700;
-}
+  h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
 
-h3 {
-  font-family: "Old Standard TT", serif;
-  font-size: 30px;
-  font-weight: 400;
-}
+  h3 {
+    font-family: "Old Standard TT", serif;
+    font-size: 30px;
+    font-weight: 400;
+  }
 
-h4 {
-  font-family: "Old Standard TT", serif;
-  font-size: 16px;
-  font-weight: 400;
-}
+  h4 {
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
 
-h5 {
-  font-family: "Old Standard TT", serif;
-  font-size: 18px;
-  font-weight: 700;
+  h5 {
+    font-family: "Old Standard TT", serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
 }
+@media only screen and (min-width: 768px) {
+  h1 {
+    font-family: "Old Standard TT", serif;
+    font-size: 50px;
+    font-weight: bold;
+  }
 
+  p {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0c0910;
+  }
+
+  h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-family: "Old Standard TT", serif;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  h5 {
+    font-family: "Old Standard TT", serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+@media only screen and (min-width: 375px) {
+  h1 {
+    font-family: "Old Standard TT", serif;
+    font-size: 30px;
+    font-weight: bold;
+  }
+
+  p {
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    color: #0c0910;
+  }
+
+  h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  h3 {
+    font-family: "Old Standard TT", serif;
+    font-size: 30px;
+    font-weight: 400;
+  }
+
+  h4 {
+    font-family: "Old Standard TT", serif;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  h5 {
+    font-family: "Old Standard TT", serif;
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
 @media only screen and (min-width: 1200px) {
   * {
     box-sizing: border-box;
@@ -9809,7 +9883,8 @@ h5 {
   }
 
   .box {
-    padding: 2rem 2rem 1rem 2rem;
+    padding: 2rem 15rem 1rem 2rem;
+    margin-top: 74vh;
   }
 
   .box2 {
@@ -9823,11 +9898,12 @@ h5 {
   }
 
   .box {
-    padding: 2rem 2rem 1rem 1rem;
+    padding: 2rem 2rem 1rem 3rem;
+    margin-top: 56vh;
   }
 
   .box2 {
-    padding: 2rem 6rem 1rem 3rem;
+    padding: 2rem 6rem 1rem 0rem;
     line-height: 1.6rem;
   }
 }
@@ -9899,9 +9975,9 @@ h5 {
     display: inline-block;
     background-color: #0c0910;
     color: #fff;
-    padding-left: 4rem;
+    padding-left: 1rem;
     padding-top: 2rem;
-    width: 26rem;
+    width: 21rem;
     height: 14rem;
     line-height: 3rem;
   }
