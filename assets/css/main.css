@@ -9877,13 +9877,13 @@ table {
     box-sizing: border-box;
   }
 
-  .box {
+  .row__box {
     padding: 2rem 6rem 5.4rem 4rem;
     background-color: #fff;
     width: 40vw;
   }
 
-  .box2 {
+  .row__box__box2 {
     padding: 1.25rem 9.5rem 1.25rem 0;
     line-height: 1.6rem;
   }
@@ -9893,12 +9893,12 @@ table {
     box-sizing: border-box;
   }
 
-  .box {
-    padding: 2rem 15rem 4rem 2rem;
+  .row__box {
+    padding: 2rem 15rem 4rem 4rem;
     margin-top: 74vh;
   }
 
-  .box2 {
+  .row__box__box2 {
     padding: 3rem 2rem 3rem 0rem;
     line-height: 1.6rem;
   }
@@ -9913,12 +9913,12 @@ table {
     box-sizing: border-box;
   }
 
-  .box {
+  .row__box {
     padding: 5rem 2rem 1rem 3rem;
     margin-top: 46vh;
   }
 
-  .box2 {
+  .row__box__box2 {
     padding: 2rem 6rem 1rem 0rem;
     line-height: 1.6rem;
   }
@@ -9928,7 +9928,7 @@ table {
     display: flex;
   }
 
-  .box3 {
+  .row__box3 {
     display: inline-block;
     background-color: #0c0910;
     color: #fff;
@@ -9939,13 +9939,13 @@ table {
     line-height: 3rem;
   }
 
-  .texto-vertical-1 {
+  .row__texto-vertical-1 {
     writing-mode: vertical-lr;
     padding-left: 0;
     padding-top: 4rem;
   }
 
-  .email {
+  .row__email {
     font-family: "Raleway", sans-serif;
     font-size: 14px;
     color: #0c0910;
@@ -9958,7 +9958,7 @@ table {
     display: flex;
   }
 
-  .box3 {
+  .row__box3 {
     display: inline-block;
     background-color: #0c0910;
     color: #fff;
@@ -9969,7 +9969,7 @@ table {
     line-height: 3rem;
   }
 
-  .texto-vertical-1 {
+  .row__texto-vertical-1 {
     writing-mode: vertical-lr;
     padding-top: 4rem;
     top: -13rem;
@@ -9981,12 +9981,12 @@ table {
     max-width: 108%;
   }
 
-  .email {
+  .row__email {
     font-family: "Raleway", sans-serif;
     font-size: 14px;
     color: #0c0910;
     height: 2rem;
-    width: 17rem;
+    width: 33rem;
   }
 }
 @media only screen and (max-width: 375px) {
@@ -9994,25 +9994,25 @@ table {
     display: flex;
   }
 
-  .box3 {
+  .row__box3 {
     display: inline-block;
     background-color: #0c0910;
     color: #fff;
-    padding-left: 1rem;
+    padding-left: 3rem;
     padding-top: 2rem;
     width: 21rem;
     height: 14rem;
     line-height: 3rem;
   }
 
-  .texto-vertical-1 {
+  .row__texto-vertical-1 {
     writing-mode: vertical-lr;
     padding-left: 2rem;
     top: -13rem;
     padding-left: 21.6rem;
   }
 
-  .email {
+  .row__email {
     font-family: "Raleway", sans-serif;
     font-size: 14px;
     color: #0c0910;
@@ -10102,6 +10102,10 @@ table {
 
   .navbar-light .navbar-nav .nav-link {
     color: #0c0910;
+  }
+
+  .collapse .navbar-collapse {
+    display: view;
   }
 }
 @media only screen and (max-width: 375px) {

@@ -2,7 +2,7 @@
 .row {
   display: flex;
 }
-.box3 {
+.row__box3 {
     display: inline-block;
     background-color: $smoky-black;
     color: $white;
@@ -12,12 +12,12 @@
     height: 14rem;
     line-height : 3rem;
 }
-.texto-vertical-1 {
+.row__texto-vertical-1 {
     writing-mode: vertical-lr;
     padding-left: 0;
     padding-top: 4rem;
  }
-.email {
+.row__email {
     font-family: $raleway;
     font-size: $small;
     color: $smoky-black;
@@ -29,7 +29,7 @@
   .row {
     display: flex;
   }
-  .box3 {
+  .row__box3 {
       display: inline-block;
       background-color: $smoky-black;
       color: $white;
@@ -39,7 +39,7 @@
       height: 14rem;
       line-height : 3rem;
   }
-  .texto-vertical-1 {
+  .row__texto-vertical-1 {
       writing-mode: vertical-lr;
       //padding-left: 2rem;
       padding-top: 4rem;
@@ -52,35 +52,35 @@
      flex: 0 0 50%;
      max-width: 108%;
 }
-  .email {
+  .row__email {
       font-family: $raleway;
       font-size: $small;
       color: $smoky-black;
       height: 2rem;
-      width: 17rem;
+      width: 33rem;
      }
 }
 @media only screen and (max-width: 375px){
   .row {
     display: flex;
   }
-  .box3 {
+  .row__box3 {
       display: inline-block;
       background-color: $smoky-black;
       color: $white;
-      padding-left: 1rem;
+      padding-left: 3rem;
       padding-top: 2rem;
       width: 21rem;
       height: 14rem;
       line-height: 3rem;
   }
-  .texto-vertical-1 {
+  .row__texto-vertical-1 {
       writing-mode: vertical-lr;
       padding-left: 2rem;
       top: -13rem;
       padding-left: 21.6rem;
    }
-  .email {
+  .row__email {
       font-family: $raleway;
       font-size: $small;
       color: $smoky-black;
