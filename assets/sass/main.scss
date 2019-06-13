@@ -5,19 +5,18 @@
   'abstracts/placeholders';
 
 @import
-  'vendors/bootstrap';
+  'vendors/bootstrap-4.3.1/bootstrap';
 
 @import
+  'base/base',
   'base/reset',
   'base/typography';
 
 @import
-
+ 'layout/article',
   'layout/grid',
   'layout/header',
-  'layout/footer',
-  'layout/sidebar',
-  'layout/forms';
+  'layout/footer';
 
 @import
   'components/buttons',
@@ -25,8 +24,7 @@
   'components/navigation';
 
 @import
-  'pages/home',
-  'pages/contact';
+  'pages/home';
 
 @import
   'themes/theme';

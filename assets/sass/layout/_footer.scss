@@ -1,0 +1,82 @@
+@media only screen and (min-width: 1200px){
+.row {
+  display: flex;
+}
+.box3 {
+    display: inline-block;
+    background-color: $smoky-black;
+    color: $white;
+    padding-left: 4rem;
+    padding-top: 2rem;
+    width: 26rem;
+    height: 14rem;
+    line-height : 3rem;
+}
+.texto-vertical-1 {
+    writing-mode: vertical-lr;
+    padding-left: 0;
+    padding-top: 4rem;
+ }
+.email {
+    font-family: $raleway;
+    font-size: $small;
+    color: $smoky-black;
+    height: 2rem;
+    width: 17rem;
+   }
+ }
+@media only screen and (min-width: 768px){
+  .row {
+    display: flex;
+  }
+  .box3 {
+      display: inline-block;
+      background-color: $smoky-black;
+      color: $white;
+      padding-left: 4rem;
+      padding-top: 2rem;
+      width: 26rem;
+      height: 14rem;
+      line-height : 3rem;
+  }
+  .texto-vertical-1 {
+      writing-mode: vertical-lr;
+      //padding-left: 2rem;
+      padding-top: 4rem;
+
+   }
+  .email {
+      font-family: $raleway;
+      font-size: $small;
+      color: $smoky-black;
+      height: 2rem;
+      width: 17rem;
+     }
+}
+@media only screen and (min-width: 375px){
+  .row {
+    display: flex;
+  }
+  .box3 {
+      display: inline-block;
+      background-color: $smoky-black;
+      color: $white;
+      padding-left: 4rem;
+      padding-top: 2rem;
+      width: 26rem;
+      height: 14rem;
+      line-height : 3rem;
+  }
+  .texto-vertical-1 {
+      writing-mode: vertical-lr;
+      //padding-left: 2rem;
+      padding-top: 4rem;
+   }
+  .email {
+      font-family: $raleway;
+      font-size: $small;
+      color: $smoky-black;
+      height: 2rem;
+      width: 17rem;
+     }
+}
